@@ -1,0 +1,101 @@
+html{
+    font-family:'Courier New', Courier, monospace;
+    color: #000;
+}
+
+body{
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Topo da página*/
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding: 100px;
+    margin: 60px;
+}
+
+#menu_superior{
+    padding-top: 10px;
+    text-align: center;
+}
+
+#lista_menu li {
+    list-style: none;
+    display:inline-block;
+    align-items:baseline;
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 20px;
+}
+
+#lista_menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+#lista_menu li :hover{
+    color: rgba(16, 53, 173, 0.849);
+    font-size: 23px;
+}
+
+#image{
+    border-radius: 50%;
+    height: 450px;
+    width: 350px;
+    box-shadow: 2px 2px 2px #a1a1a1;
+}
+
+#contatos {
+    position: absolute;
+    margin-top: 230px;
+    margin-right: 600px;
+}
+
+#git{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+#linke{
+    margin-left: 40px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+#gmail{
+    margin-left: 40px;
+    border: 2px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+#nome{
+    font-size: 3em;
+}
+
+#h1, #h2, #h3{
+    background-color: #f6f6f6;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+#sobre{
+    margin-top: -5%;
+    margin-left: 3%;
+    font-size: 3em;
+}
+
+#descricao{
+    font-size: 20px;
+    text-align: justify;
+}
